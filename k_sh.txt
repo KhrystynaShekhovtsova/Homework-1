@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Friendship</legend>
+        <label for="name">name</label>
+                <br>
+        <input id="name" type="text" name="name" value="value">
+                <br>
+        <label for="favoritefood">Favorite food</label>
+                <br>
+        <select name="favoritefood" id="favoritefood">
+             <option>Cheese</option>
+             <option>Egg</option>
+             <option>Cabbage</option>
+          </select>
+                <br>
+          <input type="button" name="button" value="somebutton">
+      </fieldset>
+      <fieldset>
+            <legend>Friendship</legend>
+            <input type="radio" name="radFriendship" value="Not_Applicable" id="radFriendNot_Applicable"/>
+            <label for="radFriendNot_Applicable">Not_Applicable</label>
+                <br>
+            <input type="radio" name="radFriendship" value="acquaintance" id="radFriendaquaintence"/>
+          <label for="radFriendaquaintence">acquaintance</label>
+                <br>
+          <input type="radio" name="radFriendship" value="friend" id="radFriendfriend"/>
+          <label for="radFriendfriend">friend</label>
+       </fieldset>
+             <fieldset>
+            <legend>Friendship</legend>
+            <input type="checkbox" name="radFriendship" value="Not_Applicable" id="radFriendNot_Applicable"/>
+            <label for="radFriendNot_Applicable">Not_Applicable</label>
+                <br>
+            <input type="checkbox" name="radFriendship" value="acquaintance" id="radFriendaquaintence"/>
+          <label for="radFriendaquaintence">acquaintance</label>
+                <br>
+          <input type="checkbox" name="radFriendship" value="friend" id="radFriendfriend"/>
+          <label for="radFriendfriend">friend</label>
+       </fieldset>
+          <button name="string" type="reset" value="value">Reset</button>
+    </form>
+  </body>
+</html>
